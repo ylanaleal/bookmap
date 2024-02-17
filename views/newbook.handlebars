@@ -1,0 +1,51 @@
+<h1 class="title mt-3">Add a new Book</h1>
+
+<div class="container">
+   <div class="add-book">
+<form action="/books/insertbook" method="POST">
+  {{!-- consigo deixar o id invisível pro público com o type hidden--}}
+   <input type="hidden" name="id" value={{newBookId}}>
+
+  <div class="form-group">
+
+    <label for="title">Title</label>
+    <input type="text" name="title" class="form-control" placeholder="Harry Potter">
+  </div>
+
+
+   <div class="form-group">
+    <label for="author">Author</label>
+    <input type="text" name="author" class="form-control" placeholder="Clarice Lispector">
+  </div>
+
+  <div class="form-group pages-year">
+   <div>
+      <label for="pages">Pages</label>
+      <input type="number" name="pages" class="form-control pages" placeholder="100">
+   </div>
+
+   <div>
+      <label for="year">Year</label>
+      <input type="number" name="year" class="form-control" placeholder="2024">
+   </div>
+  </div>
+
+  <div class="form-group">
+    <label for="image_url">Image URL</label>
+    <input type="text" name="image_url" class="form-control" placeholder="">
+  </div>
+
+  <div class="form-group">
+    <label for="rating">Rating <i class="fa-solid fa-star h6"></i><i class="fa-solid fa-star h6"></i><i class="fa-solid fa-star h6"></i><i class="fa-solid fa-star h6"></i><i class="fa-solid fa-star h6"></i></label>
+    <input type="number" name="rating" class="form-control" placeholder="1 to 5">
+  </div>
+
+  <div class="form-group">
+    <label for="textarea">Overview</label>
+    <textarea name="overview" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+
+  <input type="submit" value="Add" class="btn btn-outline-success mt-2">
+</form>
+</div>
+</div>

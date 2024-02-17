@@ -1,0 +1,62 @@
+{
+    "1": {
+        "title": "The Seven Husbands of Evelyn Hugo",
+        "id": "1",
+        "author": "Taylor Jenkins Reid",
+        "pages": "360",
+        "year": "2019",
+        "image_url": "https://i.ebayimg.com/images/g/sqEAAOSwhKVfx0CO/s-l1600.jpg",
+        "rating": 5,
+        "overview": "The Seven Husbands of Evelyn Hugo is a riveting tale that immerses readers in the glitz and secrets of Hollywood's golden era. Taylor Jenkins Reid crafts a compelling narrative, exploring love, ambition, and the complexities of fame."
+    },
+    "2": {
+        "title": "Normal People",
+        "id": "2",
+        "author": "Sally Rooney",
+        "pages": "288",
+        "year": "2019",
+        "image_url": "https://m.media-amazon.com/images/I/71fnqwR0eSL._SL1500_.jpg",
+        "rating": 5,
+        "overview": "Normal People by Sally Rooney is an intimate exploration of the intricacies of love and human connection. Rooney's prose is spare yet powerful, capturing the nuances of relationships and the impact they have on individuals"
+    },
+    "3": {
+        "title": "Conversations with Friends: A Novel",
+        "id": "3",
+        "author": "Sally Rooney",
+        "pages": "320",
+        "year": "2017",
+        "image_url": "https://m.media-amazon.com/images/I/51eQ8jRH4fL._SY385_.jpg",
+        "rating": 4,
+        "overview": "Rooney's sharp and incisive writing style brings the characters to life, making their relationships and conversations feel both familiar and extraordinary. This book is a compelling exploration of the intricacies of human connection and the blurred lines between friendship and romance."
+    },
+    "4": {
+        "title": "The Color Purple",
+        "id": "4",
+        "author": "Alice Walker",
+        "pages": "304",
+        "year": "1982",
+        "image_url": "https://m.media-amazon.com/images/I/41E4IDjS8HL._SY445_SX342_.jpg",
+        "rating": 5,
+        "overview": "Walker's powerful narrative unfolds through the eyes of Celie, offering an unflinching portrayal of racism, sexism, and the triumph of personal strength. This classic novel is an emotionally charged and transformative journey that resonates with its timeless themes of identity, love, and empowerment."
+    },
+    "5": {
+        "title": "On the Road",
+        "id":"5",
+        "author": "Jack Kerouac",
+        "pages": "304",
+        "year": "1957",
+        "image_url": "https://m.media-amazon.com/images/I/8159dqtw25L._SY425_.jpg",
+        "rating": 5,
+        "overview": "Through the charismatic and restless Sal Paradise, Kerouac captures the spirit of a generation in search of meaning and adventure. The novel's vibrant prose and spontaneous style make it a timeless ode to the pursuit of authenticity and the open road."
+    },
+    "6": {
+        "id": "6",
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "author": "J.K. Rowling",
+        "pages": "309",
+        "year": "1998",
+        "image_url": "https://m.media-amazon.com/images/I/91wKDODkgWL._SY425_.jpg",
+        "rating": "4",
+        "overview": "Harry Potter has no idea how famous he is. That's because he's being raised by his miserable aunt and uncle who are terrified Harry will learn that he's really a wizard, just as his parents were. But everything changes when Harry is summoned to attend an infamous school for wizards, and he begins to discover some clues about his illustrious birthright. "
+    }
+}

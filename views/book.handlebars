@@ -1,0 +1,29 @@
+<div class="card-product">
+
+    <img src="{{book.image_url}}">
+
+        <div class="container">
+            <div class="card-product-infos d-flex justify-content-between align-items-end">
+                <div>
+                    <div class="head">                    
+                        <h5 class="card-title bold">{{book.title}}</h5>
+                        
+                        <a href="/books"><i class="fa-solid fa-chevron-left"></i></a>
+                        <a href="/books/edit/{{book.id}}" class="btn btn-outline-success">Edit</a>
+                        <form action="/books/delete/{{book.id}}" method="POST">
+                            <input type="submit" class="btn btn-outline-danger" value="Delete">
+                        </form>
+                    </div>
+                    
+                    <p class="card-author mb-4">{{book.author}}</p>
+                    <p class="card-overview">{{book.overview}}</p>
+                </div>
+
+                <div class="books-info">
+                    <p class="card-text">{{book.year}}</p>            
+                    <p class="card-text">{{book.pages}} pages</p>            
+                    <p class="card-text"><i class="fa-solid fa-star h6"></i> {{book.rating}}/5</p>            
+                </div>            
+            </div>
+        </div>
+</div>
